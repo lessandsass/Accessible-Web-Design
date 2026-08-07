@@ -61,7 +61,6 @@ a {
     color: #007000;
     font-weight: 700;
     line-height: 1;
-    display: block;
 }
 .hero-text {
     font-size: 20px;
@@ -69,7 +68,7 @@ a {
     margin-bottom: 30px;
 }
 .hero-image {
-    max-width: 450px;
+    max-width: 400px;
     position: absolute;
     right: -20px;
     top: -100px;
