@@ -54,7 +54,7 @@ The course teaches accessibility from the ground up: instead of memorizing rules
 
 ```bash
 git clone https://github.com/lessandsass/Accessible-Web-Design.git
-cd <repo-name>
+cd Accessible-Web-Design
 ```
 
 Open any `index.html` file in your browser, or serve the folder with a live server:
