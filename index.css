@@ -92,11 +92,11 @@ a {
     margin: 0 auto;
     padding: 20px 40px;
     width: 800px;
-    color: #007000;
+    color: #FFF;
 }
 .social-links p {
     display: inline;
-    font-size: 16px;
+    font-size: 16px; 
 }
 .social-links ion-icon {
     padding-right: 10px;
