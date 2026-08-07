@@ -68,10 +68,10 @@ a {
     margin-bottom: 30px;
 }
 .hero-image {
-    max-width: 400px;
+    max-width: 350px;
     position: absolute;
     right: -20px;
-    top: -100px;
+    top: -50px;
     z-index: -1;
 }
 .hero-link {
