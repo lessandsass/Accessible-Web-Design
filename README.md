@@ -53,7 +53,7 @@ The course teaches accessibility from the ground up: instead of memorizing rules
 ## Running the project locally
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/lessandsass/Accessible-Web-Design.git
 cd <repo-name>
 ```
 
