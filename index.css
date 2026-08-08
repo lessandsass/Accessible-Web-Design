@@ -106,3 +106,64 @@ a {
     align-items: center;
 }
 
+/* About Section */
+.about-section {
+    background-image: url(images/clouds.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid #333333;
+}
+.about-heading {
+    margin: 0;
+    font-size: 48px;
+}
+.about span {
+    color: #007000;
+}
+.about-link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about a {
+    border: 2px solid #333333;
+    padding: 8px 20px;
+    border-radius: 40px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333333;
+    margin-top: 100px;
+}
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 40px;
+    width: 800px;
+    color: #ffffff;
+}
+.social-links p {
+    display: inline;
+    font-size: 16px;
+}
+.social-links ion-icon {
+    padding-right: 10px;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+}
+
+/* 
+Challenge:
+1. Identify any elements on the page where the text contrast is poor.
+2. Change those elements according to the AAA requirements.
+*/
+
