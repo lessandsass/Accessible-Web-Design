@@ -14,8 +14,8 @@ strong {
 }
 a {
     color: #0907a4;
-    text-decoration: none;
-    text-decoration-color: #d172cb;
+    text-decoration: underline;
+    text-decoration-color: #0907a4;
 }
 
 /* Hero Section */
@@ -63,3 +63,9 @@ a {
     width: 400px;
     padding: 40px;
 }
+
+/* 
+Challenge: Update our links so that they meet the following requirements:
+1. They can be identified as links by more than just color.
+2. The link text is not ambiguous, as in the links make sense out of context.
+*/
