@@ -96,6 +96,7 @@ a {
 }
 .info a {
     color: #007000;
+    text-decoration: underline;
 }
 .statistics {
     width: 620px;
