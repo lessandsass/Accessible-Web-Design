@@ -84,7 +84,7 @@ a {
 
 /* Info Section */
 .info-section {
-    margin: 250px auto;
+    margin: 150px auto;
     width: 800px;
 }
 .info {
@@ -115,7 +115,7 @@ a {
     max-width: 200px;
 }
 .stat-heading {
-    color: #aaaaaa;
+    color: #cccccc;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 0;
@@ -140,7 +140,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 700px;
-    margin: 0 auto;
+    margin: 0 auto 140px auto;
     padding: 40px;
     border: 2px solid #333333;
 }
