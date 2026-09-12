@@ -24,26 +24,33 @@
                     <input class="contact-input" id="address" type="text" placeholder="34, Colombo" />
 
                     <div class="address">
-                        <div class="city">
+                        <legend>Postal Code</legend>
+                        <fieldset class="city">
                             <label for="city">City</label>
                             <input class="address-input" id="city" type="text" placeholder="Bambalapitiya" />
-                        </div>
-                        <div class="postcode">
+                        </fieldset>
+
+                        <fieldset class="postcode">
                             <label for="postcode">Postcode</label>
                             <input class="address-input" id="postcode" type="text" placeholder="00100" />
-                        </div>
+                        </fieldset>
+
                     </div>
 
-                    <label for="email">Email</label>
-                    <input class="contact-input" id="email" type="text" placeholder="info@gmail.com" />
+                    <fieldset>
+                        <legend>Email Address</legend>
+                        <label for="email">Email</label>
+                        <input class="contact-input" id="email" type="text" placeholder="info@gmail.com" />
+                    </fieldset>
+                    
 
-                    <div class="radio-container">
-                        <p>Do you have cats?</p>
+                    <fieldset class="radio-container">
+                        <legend>Do you have cats?</legend>
                         <label for="yes">Yes</label>
                         <input class="contact-radio" id="yes" type="radio" name="cats" />
                         <label for="no">No</label>
                         <input class="contact-radio" id="no" type="radio" name="cats" />
-                    </div>
+                    </fieldset>
 
                     <button class="contact-submit-button" type="button">Send message 🎉</button>
 
