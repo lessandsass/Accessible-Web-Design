@@ -80,9 +80,47 @@ body, .contact-input, .address-input, .radio-container p {
     margin-bottom: 10px;
 }
 
-/* 
-Challenge:
-1. Add an id attribute to each input field. (You are going to need it, *hint hint*)
-2. Add labels for each input field in the form. Look up how to associate a label with an input field so that when clicking the label, the input field gets focused.
-3. Change the placeholder names to be exemplary user inputs, i.e. "Obama" for a surname field.
-*/
+.city-select {
+    width: 150px;
+    margin: 5px auto 10px;
+    border-radius: 20px;
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: 2px solid #333333;
+}
+.city-select:focus-visible {
+    outline: 3px solid #bbd5ff;
+}
+.popover-message {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 8px;
+    z-index: 100;
+    margin-left: 130px;
+    border-radius: 8px;
+    margin-top: -35px;
+}
+.popover-message::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #444444 transparent transparent transparent;
+}
+.contact-submit-button:disabled {
+    border-color: #aaaaaa;
+}
+.contact-submit-button:disabled:hover {
+    cursor: not-allowed;
+}
+.contact-submit-button:disabled:active {
+    transform: none;
+}
+.contact-submit-button:disabled:hover + .popover-message {
+    display: block;
+}
