@@ -6,7 +6,7 @@ function sendMessage() {
     button.outerHTML = '<p id="submitMessage" class="submit-message" aria-live="polite">Message sent! ✅</p>';
     
     // Get the home link element and add focus to it
-    
+    // document.getElementById('homeLink').focus();
 }
 
 // Here's your challenge:
