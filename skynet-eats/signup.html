@@ -1,3 +1,4 @@
+!<!DOCTYPE html>
 <html>
     <head>
         <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
@@ -11,6 +12,11 @@
     </head>
     <body class="contact-page">
         <main id="main">
+            <div class="header">
+                <h2 class="contact-form-heading">Sign up</h2>
+                <a href="#main">Back to home page</a>
+            </div>
+
             <!-- Form section -->
             <section class="contact-form-section">
                 <form>
@@ -24,10 +30,13 @@
                     <input class="contact-input" id="address" type="text" placeholder="34, Colombo" />
 
                     <div class="address">
-                        <legend>Postal Code</legend>
                         <fieldset class="city">
                             <label for="city">City</label>
-                            <input class="address-input" id="city" type="text" placeholder="Bambalapitiya" />
+                            <select class="city-select" id="city" type="text" placeholder="London">
+                                <option value="london">London</option>
+                                <option value="manchester">Manchester</option>
+                                <option value="leeds">Leeds</option>
+                            </select>
                         </fieldset>
 
                         <fieldset class="postcode">
@@ -49,7 +58,8 @@
                         <label for="yes">Yes</label>
                         <input class="contact-radio" id="yes" type="radio" name="cats" />
                         <label for="no">No</label>
-                        <input class="contact-radio" id="no" type="radio" name="cats" />
+                        <input id="homelink" class="contact-radio" id="no" type="radio" name="cats" />
+                        <button class="contact-submit-button" id="submitButton" type="button" onclick="sendMessage()" aria-controls="submitMessage">Send message 🎉</button>
                     </fieldset>
 
                     <button class="contact-submit-button" type="button">Send message 🎉</button>
@@ -58,5 +68,8 @@
                 <img class="contact-image" src="images/drone-contact.png" alt="A woman seeing a drone approaching." />
             </section>
         </main>
+
+         <script src="index.js"></script>
+
     </body>
 </html>
