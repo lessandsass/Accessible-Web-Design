@@ -25,7 +25,7 @@ body, .contact-input, .contact-textarea  {
     margin-left: -60px;
 }
 .contact-form-heading {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     margin: 0;
 }
@@ -33,7 +33,7 @@ body, .contact-input, .contact-textarea  {
     color: #007000;
 }
 .contact-form-intro {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 20px;
 }
 .contact-input {
@@ -42,7 +42,7 @@ body, .contact-input, .contact-textarea  {
     margin: 5px auto 15px;
     border-radius: 20px;
     padding: 8px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     border: 2px solid #333333;
 }
 .contact-textarea {
@@ -77,5 +77,5 @@ Write them down here:
 - Missing labels for input fields ✔️
 - Ambiguous button text ✔️
 - Semantic HTML is lacking - Fixing the h2 to h1 ✔️
-- Font-sizes are defined in pixels rather than rem
+- Font-sizes are defined in pixels rather than rem ✔️
 */
