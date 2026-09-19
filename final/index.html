@@ -16,9 +16,16 @@
                 <form>
                     <h2 class="contact-form-heading">Reach <span>Out</span></h2>
                     <div class="contact-form-intro">Curious about something? Complete these fields and "get in touch", as you humans say. 🤙</div>
-                    <input class="contact-input" type="text" placeholder="Full name" />
-                    <input class="contact-input" type="text" placeholder="Email" />
-                    <textarea class="contact-textarea" rows="4" cols="50" placeholder="Your message..."></textarea>
+
+                    <label for="name">Full name</label>
+                    <input class="contact-input" id="name" type="text" placeholder="Full name" />
+
+                    <label for="email">Email</label>
+                    <input class="contact-input" id="email" type="text" placeholder="Email" />
+
+                    <label for="message">Message</label>
+                    <textarea class="contact-textarea" id="message" rows="4" cols="50" placeholder="Your message..."></textarea>
+
                     <button class="contact-submit-button" type="button" onclick="submitForm()">Done 🎉</button>
                 </form>
                 <img class="contact-image" src="images/connect.png" alt="A robot hand and a human reaching for each other." />
