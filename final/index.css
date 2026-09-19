@@ -75,7 +75,7 @@ Write them down here:
 - Placeholder text has poor text contrast ✔️
 - Missing alternative text for images ✔️
 - Missing labels for input fields ✔️
-- Ambiguous button text 
-- Semantic HTML is lacking
+- Ambiguous button text ✔️
+- Semantic HTML is lacking - Fixing the h2 to h1 ✔️
 - Font-sizes are defined in pixels rather than rem
 */
