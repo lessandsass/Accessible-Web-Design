@@ -72,8 +72,8 @@ body, .contact-input, .contact-textarea  {
 Challenge: Identify all accessibility issues using all your newly acquired knowledge.
 
 Write them down here:
-- Placeholder text has poor text contrast
-- Missing alternative text for images
+- Placeholder text has poor text contrast ✔️
+- Missing alternative text for images ✔️
 - Missing labels for input fields
 - Ambiguous button text
 - Semantic HTML is lacking
